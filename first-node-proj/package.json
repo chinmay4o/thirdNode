@@ -1,0 +1,20 @@
+{
+  "name": "first-node-proj",
+  "version": "1.0.0",
+  "description": "sample-server-proj",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chinmay",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
